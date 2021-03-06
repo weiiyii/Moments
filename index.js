@@ -21,6 +21,8 @@ const server = new ApolloServer({
   // forward the request, take the request body, forward it to the context
   // so that we can access the request body in the context
   context: ({ req }) => ({ req, pubsub }),
+  introspection: true,
+  playground: true,
 });
 
 // returns a promise, need a "then"
