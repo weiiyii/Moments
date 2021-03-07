@@ -1,5 +1,5 @@
 // dependency imports
-const { ApolloServer, PubSub } = require("apollo-server");
+const { ApolloServer, PubSub } = require("apollo-server-express");
 // object-relational mapper (ORM library), interface with mongoDB database
 const mongoose = require("mongoose");
 const express = require("express");
