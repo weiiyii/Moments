@@ -11,7 +11,7 @@ import { setContext } from "apollo-link-context";
 const httpLink = createHttpLink({
   // purpose of uri: locate a resource on the server
   // pointing to the graphql server, the endpoint of the server
-  uri: "/graphql",
+  uri: "http://localhost:5000",
 });
 
 // add the token to the request header
